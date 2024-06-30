@@ -1,26 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a:hover{
+  color: #FC6736;
+}
+
 .sidebar{
   position: fixed;
   top:20%;
-  width: 15%;
+  width: 20%;
   left: 0;
   height: 100vh;
-  background-color: rgb(24, 23, 99);
+  background-color: #0C2D57;
   padding: 15px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .logout{
   position: fixed;
-  bottom:5%;
+  bottom: 5%;
+  
   
 }
 
+.a {
+  text-decoration: none;
+  color: #FC6736;
+}
+
+.sidebar-group{
+  margin: 3px;
+}
 .sidebar-fields{
+  margin: 6px;
   font-family: poppins;
-  color:  rgb(24, 23, 99);
-  margin-bottom: 20px;
-  
+  color:  #bcbcbc;
+  font-weight: bold;
+  border-radius: 6px;
 }
 
 .sidebar-fields:hover{
-  background-color: rgb(245, 129, 12);
+  background-color: rgb(237, 118, 0);
 }
+
