@@ -6,6 +6,7 @@ import HeaderBar from './components/Header/HeaderBar.jsx';
 import Todo from './components/Todo/Todo.jsx';
 import Overdue from './components/Overdue/Overdue.jsx';
 import { useAuthContext } from "@asgardeo/auth-react";
+import CalanderBar from './components/Calanderbar/CalanderBar.jsx';
 // const routers = createBrowserRouter([
 
   
@@ -15,8 +16,10 @@ function App() {
   const { state, signIn, signOut } = useAuthContext();
   return (
     <>
-     {/* <HeaderBar/>
-     <Sidebar1/> */}
+     <HeaderBar/>
+     <Sidebar1/>
+     <Todo/>
+     <CalanderBar/>
      <div className="App">
       {
         state.isAuthenticated

@@ -3,11 +3,9 @@ import "../../styles/Sidebar.css";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { UilFavorite } from '@iconscout/react-unicons'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 const Sidebar = () => {
   return (
@@ -28,7 +26,7 @@ const Sidebar = () => {
           <Navbar.Brand  style={{marginTop:"20px",color:"#fff"}} href="#">
           <img
               alt=""
-              src="./src/components/Sidebar/favorite.svg"
+              src="./src/components/Sidebar/trophy.svg"
               color="#FC6736"
               width="30"
               height="30"
@@ -63,7 +61,7 @@ const Sidebar = () => {
           <Navbar.Brand  style={{ color:"#fff"}} href="#">
           <img
               alt=""
-              src="./src/components/Sidebar/favorite.svg"
+              src="./src/components/Sidebar/task.svg"
               color="#FC6736"
               width="30"
               height="30"
@@ -81,7 +79,7 @@ const Sidebar = () => {
           <Navbar.Brand  style={{ color:"#fff"}} href="#">
           <img
               alt=""
-              src="./src/components/Sidebar/favorite.svg"
+              src="./src/components/Sidebar/signout.svg"
               color="#FC6736"
               width="30"
               height="30"

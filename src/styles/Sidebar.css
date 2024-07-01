@@ -11,10 +11,11 @@ a:hover{
   left: 0;
   height: 100vh;
   background-color: #0C2D57;
-  padding: 15px;
+  padding: 20px 15px 15px 15px;
   font-family: Poppins;
   font-size: 30px;
   font-weight: 600;
+  border-radius: 20px;
 }
 
 .logout{

@@ -1,0 +1,68 @@
+.todo-bg{
+    width: 70%;
+    position: fixed;
+    bottom: 10%;
+    align-items: center;
+    margin-left: 25%;
+    /* margin-top: 45%; */
+}
+
+.list{
+    width: 70%;
+    position: sticky;
+    bottom: 10%;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.task-btn{
+    background-color: #0c2d57;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 1%;
+    color: #FC6736;
+    font-weight: 600;
+}
+
+.task-input{
+    border-color: #0c2d57;
+    border-width: 3px;
+    margin: 10% 0 0 10% ;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50%;
+    color: #0c2d57;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.task-display{
+    border-color: #0c2d57;
+    border-width: 3px;
+    margin: 1% 0 0 10% ;
+    border-radius: 8px;
+    padding: 10px;
+    width: 62%;
+    color: #0c2d57;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.delete-btn{
+    margin-left: 2%;
+    width:6%;
+    background-color:#0c2d57;
+    
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#complete-btn{
+    background-color: #0c2d57;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 1%;
+    color: #FC6736;
+    font-weight: 600;
+
+}
