@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App.jsx';
 import Signup from './Pages/Signup/signup.jsx';
+import Login from './Pages/Login/login.jsx'
 import { AuthProvider } from "@asgardeo/auth-react";
 
 import './index.css';
@@ -12,8 +13,8 @@ const logoUrl = "https://drive.google.com/uc?export=view&id=13BWQklEsTKkMJP9vTYl
 const Index = () => (
   <AuthProvider
     config={{
-      signInRedirectURL: "http://localhost:5173/signup",
-      signOutRedirectURL: "http://localhost:5173/signup",
+      signInRedirectURL: "http://localhost:5173/login",
+      signOutRedirectURL: "http://localhost:5173",
       clientID: "Uws1Z01IAZ8xIwQGphsnus4hvIEa",
       baseUrl: "https://api.asgardeo.io/t/anjanadep",
       scope: ["openid", "profile"],
@@ -27,6 +28,7 @@ const Index = () => (
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </Router>
     </React.StrictMode>
